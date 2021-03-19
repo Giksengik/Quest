@@ -1,0 +1,6 @@
+package com.ru.quest.situations;
+
+public enum SituationStatus{
+    BEGINNING, YOU_ARE_BOSS,YOU_ARE_FIRED,YOU_FOUND_NEW_JOB,
+    START_OF_CARRIER, ROUTINE1,ROUTINE2, ROUTINE3,CORPORATE, DEPRESSION, NO_MONEY
+}
