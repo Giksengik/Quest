@@ -7,7 +7,7 @@ public class StartOfCarrierSituation implements ISituation {
     public ArrayList<Decision> getDecisions() {
         ArrayList<Decision> decisions = new ArrayList<>();
         Decision firstDecision = new Decision(100,-10,15,"Выполнить работу усердно");
-        Decision secondDecision = new Decision(-30, 0, -5,"Отдыхать");
+        Decision secondDecision = new Decision(-30, 0, -20,"Отдыхать");
         Decision thirdDecision = new Decision(20, 15, 0 , "Выполнить работу, свободное время уделить хобби");
         decisions.add(firstDecision);
         decisions.add(secondDecision);
